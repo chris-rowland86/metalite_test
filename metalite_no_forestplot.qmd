@@ -1,0 +1,12 @@
+---
+title: "playing with metalite"
+format: html
+editor: visual
+---
+
+```{r setup}
+#| include: false
+install.packages("remotes")
+remotes::install_github("Merck/metalite.ae")
+remotes::install_github("Merck/metalite")
+```
